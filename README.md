@@ -306,6 +306,9 @@ Gold
 
 # ▶️ Running the Pipeline
 
+![StepFunction](architecture/stepFunctions_graph.png)
+
+
 Pipeline execution order:
 
 1. Ingest data from YouTube API
@@ -316,20 +319,6 @@ Pipeline execution order:
 6. Send SNS notification
 7. Query using Athena
 8. Visualize using QuickSight
-
----
-
-# 📸 Sample Outputs
-
-Include screenshots such as:
-
-- AWS Step Functions execution
-- S3 Bronze/Silver/Gold folders
-- Glue Jobs
-- Glue Crawlers
-- Athena queries
-- QuickSight Dashboard
-- CloudWatch Logs
 
 ---
 
@@ -365,9 +354,4 @@ Include screenshots such as:
 
 **Shambhu Prasad Sah**
 
-- LinkedIn: https://www.linkedin.com/in/your-linkedin
-- GitHub: https://github.com/your-github
-
----
-
-## ⭐ If you found this project useful, consider giving it a star!
+- LinkedIn: https://www.linkedin.com/in/sahshambhu/
